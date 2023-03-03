@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Connects to a server using ssh, a private key and the user 'ubuntu'
-ssh -i ~/.ssh/school -o "PasswordAuthentication no" ubuntu@35.196.10.231
+ssh -i ~/.ssh/school -o "PasswordAuthentication no" ubuntu@54.209.149.229
 
