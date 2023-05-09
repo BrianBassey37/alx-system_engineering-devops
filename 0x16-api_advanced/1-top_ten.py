@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''A module containing functions for working with the Reddit API.
+'''A module containing functions for working with the Reddit API done during the month of may with a new cohort
 '''
 import requests
 
