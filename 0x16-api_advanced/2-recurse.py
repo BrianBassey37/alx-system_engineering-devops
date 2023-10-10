@@ -3,13 +3,12 @@
 '''
 import requests
 
-
 BASE_URL = 'https://www.reddit.com'
 '''Reddit's base API URL.
 '''
 
 
-def recurse(subreddit, hot_list=[], n=0, after=None):
+def recurse(subreddit: str, hot_list: list = [], n: int = 0, after: str = None):
     '''Retrieves a list of hot posts from a given subreddit.
     '''
     api_headers = {
@@ -47,4 +46,3 @@ def recurse(subreddit, hot_list=[], n=0, after=None):
             return hot_list if hot_list else None
     else:
         return hot_list if hot_list else None
-    
